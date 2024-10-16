@@ -1,0 +1,126 @@
+\documentclass[a4paper, 11pt]{article}
+\usepackage{comment} 
+\usepackage{fullpage}
+\usepackage[colorlinks,allcolors={blue}]{hyperref}
+\usepackage{graphicx}
+\begin{document}
+	\hrulefill
+	\begin{flushright}
+		\textbf{Universit\`a di Padova - Dipartimento Fisica e Astronomia}\\ 
+		\textbf{Corso:} Sperimentazioni 1 - Canale M-Z.\\
+		\textbf{Anno accademico:} 2021-22.\\
+		\textbf{Docenti:} D. Mengoni (\url{daniele.mengoni@unipd.it}) M.~Doro (\url{michele.doro@unipd.it}) \\
+	\end{flushright}
+	
+	\bigskip
+	\noindent
+	%\noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+	\large{\textbf{Gruppo G22} \\
+		Niccolo' Cesare Sartori - 2067047 - \url{niccolocesare.sartori@studenti.unipd.it} \\
+		Nome Cognome 2 - Matricola - \url{indirizzo@e-mail} \\
+		Nome Cognome 3 - Matricola - \url{indirizzo@e-mail} \\
+		\begin{verbatim}Data consegna relazione: ___/___/______\end{verbatim} \hrulefill 
+		
+		
+		
+		
+		\section*{Misurazione della costante di accelerazione gravitazionale tramite carrello su piano inclinato}
+
+		
+		\section[Metodologia]{Descrizione dell'apparato strumentale, della messa in opera e della procedura di misura}
+		\emph{[Circa 2 pagine]}\\
+		\begin{enumerate}
+			\item Descrivere in modo sintetico l'apparato sperimentale utilizzato in relazione alla misura che si vuole fare, anche con l'aiuto di uno schema grafico utilizzando i \emph{concetti di metrologia} discussi in lezione. 
+			\item Discutere quelle che sono le \emph{misure di input}, le \emph{misure output}, e il \emph{modello matematico} che porta alla stima del misurando.
+			\item Discutere i \emph{fattori che influenzano la misura} e la \emph{sensitivit\`a presunta o misurata dello strumento} verso questi fattori.
+			\item Descrivere la \emph{procedura di misura}
+		\end{enumerate}
+		
+		
+		Alcuni consigli e raccomandazioni:
+		\begin{itemize}
+			\item Se possibile, usare uno schema grafico com in Fig.~\ref{fig:newton} dell'apparato, piuttosto che una foto . Limitarsi ai parametri principali dello strumento in relazione alla misura (es. colore non e' importante). Il numero di immagini in questa sezione non puo' superare poche unit\`a. 
+			\item nel caso di incertezze sistematiche discutere sempre se sono eliminabili o misurabili
+		\end{itemize}
+		
+		Descrivere le procedure di messa in opera, calibrazione e regolazione del sistema di misura.
+		
+		Considerate che stiate descrivendo l'esperienza non ad una persona che gi\`a la conosce ma ad un possibile lettore esterno o un collega che vuole farsi una chiara idea della esperienza, ed eventualmente ripeterla. 
+		
+		
+		
+		
+		\section[Analisi]{Presentazione dei dati, analisi e presentazione dei risultati}
+		\textit{[Massimo circa 4 pagine]}\\
+		In questa parte:
+		\begin{itemize}
+			\item Presentare i dati grezzi adeguatamente raggruppati in opportune tabelle numerate (vedi ad esempio Tabella~\ref{tab:mia_tabella}. La discussione che si fa sui dati qui \`e specifica, a questa se ne pu\`o aggiungere una seconda pi\`u generica nel capitolo discussione/conclusioni. 
+			\begin{table}[h!t]
+				\centering
+				\begin{tabular}{c|ccc}
+					\hline
+					Misure Periodo  & T1-100  & T2-50 & T4-50\\
+					\hline
+					1 & 2.1 & 4.1 & 8.1\\
+					2 & 2.2 & 4.2 & 8.2\\
+					\hline
+				\end{tabular}
+				\caption{Tabella dati misura XX. }
+				\label{tab:mia_tabella}
+			\end{table}
+			\item Verificare se necessario la presenza di \emph{outliers}. Nel caso di esclusioni, motivarne le ragioni.
+			\item Specificare la procedura utilizzata per l'analisi dei dati includendo le formule usate e il significato degli elementi della formula. In generale, l'incertezza ottenuta per propagazione va riportata in relazione.
+			
+			%Ad esempio per l'incertezza sul modulo di Young si \`e usata al seguente espressione: 
+			%\bigskip
+			%\begin{equation}\label{eq:stderr}
+			%   \sigma_{\overline{x}}=\frac{\sqrt{\frac{1}{N-1}\sum_{i=1}^N\;(x_i-\overline{x})^2}}{\sqrt{N}}
+			%\end{equation}
+			%\emph{dove $\overline{x}$ \`e la media aritmetica, $N$ numero delle misure, $x_i$ la singola misura.}  
+			%\bigskip
+			
+			\item Solo nel caso in cui ci si riferisca a formule generali come ad esempio medie, incertezze della media etc., \`e preferibile riportare le suddette in appendice. 
+			
+			%Ad esempio: 
+			%\bigskip
+			%\emph{\ldots come incertezza si \`e usato errore standard dato da Eq.~\ref{eq:stderr}:}
+			%\begin{equation}\label{eq:stderr}
+			%    \sigma_{\overline{x}}=\frac{\sqrt{\frac{1}{N-1}\sum_{i=1}^N\;(x_i-\overline{x})^2}}{\sqrt{N}}
+			%\end{equation}
+			%\emph{dove $\overline{x}$ \`e la media %aritmetica, $N$ numero delle misure, $x_i$ la singola misura.}  
+			%\bigskip
+			
+			Ad esempio: 
+			\bigskip
+			\begin{equation}\label{eq:stderr}
+				\sigma_{\overline{x}}=\frac{\sqrt{\frac{1}{N-1}\sum_{i=1}^N\;(x_i-\overline{x})^2}}{\sqrt{N}}
+			\end{equation}
+			%\emph{dove $\overline{x}$ \`e la media aritmetica, $N$ numero delle misure, $x_i$ la singola misura.}  
+			\bigskip
+			
+			\item Presentare i risultati sperimentali  in modo organico, cio\`e tabelle, grafici ed altro vanno spiegati contestualmente al loro inserimento in relazione.
+			
+			\item Ogni grandezza fisica deve esser accompagnata dal relativo errore e deve esser esposta l'unit\`a di misura, scritta in modo coerente e con il numero di cifre significative corrette.
+			\item Per il corso di SF1 si chiede di includere la tabella dei dati grezzi per permettere al docente di verificare la correttezza dell'analisi dati. Nel caso in cui i dati acquisiti siano in numero elevato, si pu\`o omettere la tabella dei dati grezzi, che andranno presentati in modo esemplificativo in appendice, ma in tal caso \`e importante almeno presentare in sostituzione uno o pi\`u grafici delle grandezze fisiche in gioco per mostrare i relativi andamenti come ad esempio il grafico della distribuzione temporale dei dati come in Fig.~\ref{fig:evol}.
+			
+			
+		\end{itemize}
+		
+		\section[Discussione]{Discussione dei risultati sperimentali e conclusioni.}
+		\emph{[Massimo circa 2 pagine]}\\
+		Questa sezione si divide in 3 parti concettuali:
+		\begin{enumerate}
+			\item Riassunto risultati principali
+			\item Discussione risultati
+			\item Sguardo in avanti: come migliorare risultato
+		\end{enumerate}
+		
+		Nella prima parte, riportare in forma breve e concisa i risultati numerici della esperienza in forma riassunta. Un lettore dovrebbe essere in grado di giudicare la vostra relazione solo dalla discussione e dalle conclusioni. Successivamente discutere criticamente questi risultati, anche in relazione agli obiettivi posti nella introduzione. Concludere con una discussione delle operazioni che sarebbero suggeribili per migliorare la precisione e/o l'accuratezza del risultato, sempre che sia  possibile e applicabile.
+		
+		In aggiunta, si valuti a posteriori delle incertezze sistematiche dello strumento e della misura, della loro possibile eliminazione. Le conclusioni devono esser coerenti con gli obiettivi preposti.
+		
+		\paragraph{Appendici} 
+		\emph{[Massimo circa 5 pagine]}\\
+		In appendice si riporta tutto quello che in prima lettura non e' necessario a dimostrare le conclusioni trovate durante l'esperienza, ma che pu\`o tornare utile in caso di un controllo successivo o un esame approfondito. Ad esempio in appendice si possono riportare i codici usati, tabelle troppo lunghe, grafici di controllo. Anche in questo caso usare moderazione.
+		
+	\end{document}
